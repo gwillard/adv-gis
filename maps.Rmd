@@ -104,7 +104,7 @@ leaflet() %>%
 
 ## Create GeoJSON Files
 
-```{r, eval=false}
+```{r, eval=FALSE}
 
 library(rgdal)
 
@@ -129,3 +129,9 @@ for (fc in ogrListLayers(gdb)){
   # move file
   file.rename(tmp, geo)
 }
+```
+
+<script src="https://embed.github.com/view/geojson/gwillard/adv-gis/gh-pages/data/cart_paths.geojson"></script>
+
+
+
